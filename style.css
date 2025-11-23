@@ -1,0 +1,212 @@
+body{
+    background-color: #4e3c32;
+    font-family: "Host Grotesk", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: 2fr, 1fr;
+  grid-template-rows: repeat(1, auto);
+  justify-content: right;
+  align-items: center;
+  padding-right: 20px;
+  max-width: 100%;
+  background-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  zoom: 45%;
+  transition-duration: 195ms;
+}
+
+header:hover{
+    transition-duration: 195ms;
+    transform: scale(1.02);
+}
+
+h1{
+    margin: 0%;
+    font-size: 120px;
+    padding-left: 35px;
+}
+
+.nextlink0{
+    margin-top: 25px;
+    margin-bottom: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #2b2a28;
+    max-width: 125px;
+    text-align: center;
+    color: white;
+    font-family: "Host Grotesk", sans-serif;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: larger;
+    text-decoration: none;
+    transition-duration: 195ms;
+    outline-width: 2px;
+    outline-style: outset;
+}
+
+.nextlink0:hover{
+    background-color: #a76e5d;
+    transition-duration: 195ms;
+    transform: scale(1.15);
+}
+
+.nextlink{
+    margin-top: 65px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #2b2a28;
+    max-width: 125px;
+    text-align: center;
+    color: white;
+    font-family: "Host Grotesk", sans-serif;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: larger;
+    text-decoration: none;
+    transition-duration: 195ms;
+    outline-width: 2px;
+    outline-style: outset;
+}
+
+.nextlink:hover{
+    background-color: #a76e5d;
+    transition-duration: 195ms;
+    transform: scale(1.15);
+}
+
+p3{
+    max-width: auto;
+    padding-left: 400px;
+    padding-right: 400px;
+    display: block;
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 15px;
+    color: white;
+    font-size: x-large;
+    text-align: justify;
+    line-height: 2;
+    margin-top: 25px;
+}
+
+.pic{
+    border-radius: 50%;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 6px 3px #ba977c;
+    transition: transform 195ms
+}
+
+.pic:hover{
+    transition-duration: 195ms;
+    transform: scale(1.05);
+}
+
+h3{
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.item{
+    text-align: center;
+    transition-duration: 195ms;
+}
+
+.item:hover{
+    transition-duration: 195ms;
+    transform: scale(1.05);
+}
+
+.link{
+    margin-top: 60px;
+    text-align: center;
+    color: #4e3c32;
+    transition-duration: 195ms;
+}
+
+.link:hover{
+    transition-duration: 195ms;
+    transform: scale(1.15);
+}
+
+a{
+    color: burlywood;
+}
+
+.grid img{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: scale-down;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  font-size: xx-large;
+}
+
+li{
+    transition-duration: 195ms;
+}
+
+li:hover{
+    transition-duration: 195ms;
+    transform: scale(1.15);
+}
+
+footer{
+    margin-top: 250px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    font-family: "Mozilla Text", sans-serif;
+    background-color: #2b2a28;
+    border-top-left-radius: 25px;
+
+    border-bottom-left-radius: 25px;
+
+    border-top-right-radius: 25px;
+
+    border-bottom-right-radius: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.main{
+    font-size: xx-large;
+}
+.name{
+    font-size: x-large;
+}
